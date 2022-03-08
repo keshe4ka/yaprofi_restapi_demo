@@ -1,4 +1,4 @@
-from shop_api.shop_api import __version__
+from Flask_shop_api.shop_api import __version__
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
