@@ -30,3 +30,8 @@ response = client.get('/products')
 
 print(f'GET STATUS_CODE: {response.status_code}')
 print(f'GET: \n{response.get_json()}')
+
+response = client.get('/products?query=PUTA')
+
+print(f'GET QUERY STATUS_CODE: {response.status_code}')
+print(f'GET QUERY: \n{response.get_json()}')
